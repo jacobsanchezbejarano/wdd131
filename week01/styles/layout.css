@@ -1,0 +1,36 @@
+header {
+    background-color: #414141;
+    color: #fff;
+}
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+main section {
+    background-color: #ccc;
+}
+
+main aside {
+    background-color: #eee;
+}
+
+footer {
+    text-align: center;
+    background-color: #414141;
+    color: #fff;
+}
